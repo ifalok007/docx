@@ -1,0 +1,2 @@
+for basic understanding of git bash commands
+http://rogerdudler.github.io/git-guide/
