@@ -4,3 +4,4 @@ http://rogerdudler.github.io/git-guide/
 
 
 i want exposure and challenges
+trying to prepare a full stack capability
