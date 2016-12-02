@@ -1,6 +1,8 @@
-for basic understanding of git bash commands
-http://rogerdudler.github.io/git-guide/
+1. for basic understanding of git bash commands
+ http://rogerdudler.github.io/git-guide/ 
 
+2. Why Thread.stop,Thread.suspend and Thread.destroy become deprecated ?
+ https://docs.oracle.com/javase/7/docs/technotes/guides/concurrency/threadPrimitiveDeprecation.html
 
 
 i want exposure and challenges
