@@ -1,3 +1,30 @@
+Nist Editor :
 Use of Threads -:
+Use cases :
 
-1. if multiple tabs of nEditor are open in a browser and user starts closing tabs one by one , when user closes the last tab then app should automacally trigger the server shutdown.(Embedded jetty server only).Everytime when the nEditor is opened in new tab , it instantly sends a request to server to register the newly opened tab with aunique id and that unique id is send as response from server.Upon recieveing the unique id, browser stores that unique is in its local storage so that when the same tab is closed that unique id is again send back to server, and server checks in its list of registered tabs and if server find one entry with the unique id it deletes that entry. When the list of registered tabs become empty (this is checked everytime a tab closes),a server shutdown request is made to the embedded jetty server.
+1. if multiple tabs of nEditor are open in a browser and user starts closing tabs one by one , when user closes the last tab then app should automatically trigger the server shutdown.(Embedded jetty server only).Everytime when the nEditor is opened in new tab , it instantly sends a request to server to register the newly opened tab with aunique id and that unique id is send as response from server.Upon recieveing the unique id, browser stores that unique is in its local storage so that when the same tab is closed that unique id is again send back to server, and server checks in its list of registered tabs and if server find one entry with the unique id it deletes that entry. When the list of registered tabs become empty (this is checked everytime a tab closes),a server shutdown request is made to the embedded jetty server.
+
+
+Case study and basics of biometrics-:
+	
+	BDD(BEhaviour Driven Development)
+		
+NIST Throughput simulator :
+The purpose of this project was to benchmark the APIs which parse(read) , manipulte and repackage NIST files.This project 
+gave a .csv file as output which lists which NIST file took how much time for each operation(parsing, manipulating and repackage) 
+to complete.This project runs on command-line interface.Inputs are configured in an .xml file whose path is specified at
+application runtime.
+NIST file are processed under multithreaded environment.
+Each thread picks file , read its content in a ByteArrayOutput , and perform operations and store outcome in a Map.
+Following models(VOs) are used:
+	FileVO	: 
+		String fileName
+		ByteArrayOutputStream baos
+		----
+	ResultVO:
+		
+
+
+	java (XML processing, multithreading via thread pooling using executor service, Apache CLI,
+		Logging ,ExceptionHanling)
+NistEditor and Validator
