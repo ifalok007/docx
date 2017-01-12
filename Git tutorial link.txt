@@ -11,6 +11,10 @@ http://www.ibm.com/developerworks/web/library/wa-memleak/
 5. subtle-best-practices-when-coding-java
 https://blog.jooq.org/2013/08/20/10-subtle-best-practices-when-coding-java/
 
+6. migrating-a-spring-web-mvc-application-from-jsp-to-angularjs
+https://spring.io/blog/2015/08/19/migrating-a-spring-web-mvc-application-from-jsp-to-angularjs
+
+
 i want exposure and challenges
 trying to prepare a full stack capability
 Responsive design
