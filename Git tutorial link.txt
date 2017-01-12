@@ -2,12 +2,14 @@
  http://rogerdudler.github.io/git-guide/ 
 
 2. Why Thread.stop,Thread.suspend and Thread.destroy become deprecated ?
- 3. Why Thread.destroy and Thread.suspend and smiliar othres got deprecated ?
+3. Why Thread.destroy and Thread.suspend and smiliar othres got deprecated ?
 https://docs.oracle.com/javase/7/docs/technotes/guides/concurrency/threadPrimitiveDeprecation.html
 
 4. IBM's article on javaScript memory management
 http://www.ibm.com/developerworks/web/library/wa-memleak/
 
+5. subtle-best-practices-when-coding-java
+https://blog.jooq.org/2013/08/20/10-subtle-best-practices-when-coding-java/
 
 i want exposure and challenges
 trying to prepare a full stack capability
