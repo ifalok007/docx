@@ -1,0 +1,10 @@
+<li ui-sref-active="active">
+            		<div class="input-group">
+      					<input type="text" class="form-control input-lg" placeholder="Search for..." ng-model="vm.searchKeyword">
+  						<span class="input-group-btn">
+        					<button class="btn btn-default btn-lg" type="button" ui-sref="searchAcross">
+        						<span class="glyphicon glyphicon-search"></span>
+        					</button>
+      					</span>
+    				</div>
+				</li>

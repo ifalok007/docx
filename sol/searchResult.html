@@ -1,0 +1,30 @@
+<table class="jh-table table table-striped">
+	<thead>
+		<tr>
+			<th>
+				<span>Artist Name</span>
+			</th>
+			<th>
+				<span>Album(s)</span>
+			</th>
+			<th>
+				<span>Songs(s)</span>
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="result in vm.searchResults track by $index">
+			<td>
+				<a ui-sref="artist-detail({id:result.artist.id})">{{result.artist.artistName}}</a>
+			</td>
+			<td>
+				<a ui-sref="album-detail({id:result.id})">{{result.albumName}}</a>
+			</td>
+			<td>
+				<div ng-repeat="song in result.songs">
+					<a ui-sref="song-detail({id:song.id})">{{song.songName}}</a>
+				</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
